@@ -12,6 +12,7 @@ import List from './components/List';
 import Button from './components/Button';
 import ButtonGroup from './components/ButtonGroup';
 import Checkbox from './components/Checkbox';
+import Toggle from './components/Toggle';
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
       <Button/>
       <ButtonGroup/>
       <Checkbox/>
+      <Toggle/>
     </ApplicationProvider>
   );
 };
