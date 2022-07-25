@@ -8,18 +8,21 @@ import Text from './components/Text';
 import Divider from './components/Divider';
 import Icon from './components/Icon';
 import Card from './components/Card';
+import List from './components/List';
 
 export default function App() {
   return (
     <ApplicationProvider {...eva} theme={eva.light} >
       <IconRegistry icons={EvaIconsPack} />
-      <ScrollView>
+      {/* <ScrollView>
         <Layout />
         <Text />
         <Divider />
         <Icon />
         <Card />
-      </ScrollView>
+        
+      </ScrollView> */}
+      <List/>
     </ApplicationProvider>
   );
 };
