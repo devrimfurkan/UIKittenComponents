@@ -10,6 +10,7 @@ import Icon from './components/Icon';
 import Card from './components/Card';
 import List from './components/List';
 import Button from './components/Button';
+import ButtonGroup from './components/ButtonGroup';
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
       </ScrollView> */}
       <List/>
       <Button/>
+      <ButtonGroup/>
     </ApplicationProvider>
   );
 };
