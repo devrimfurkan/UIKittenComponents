@@ -9,6 +9,7 @@ import Divider from './components/Divider';
 import Icon from './components/Icon';
 import Card from './components/Card';
 import List from './components/List';
+import Button from './components/Button';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         
       </ScrollView> */}
       <List/>
+      <Button/>
     </ApplicationProvider>
   );
 };
