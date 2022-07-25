@@ -16,6 +16,7 @@ import Toggle from './components/Toggle';
 import Input from './components/Input';
 import Select from './components/Select';
 import Autocomplete from './components/Autocomplete';
+import Datepicker from './components/Datepicker';
 
 export default function App() {
   return (
@@ -37,6 +38,7 @@ export default function App() {
       <Input/>
       <Select/>
       <Autocomplete/>
+      <Datepicker/>
     </ApplicationProvider>
   );
 };
