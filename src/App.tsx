@@ -15,6 +15,7 @@ import Checkbox from './components/Checkbox';
 import Toggle from './components/Toggle';
 import Input from './components/Input';
 import Select from './components/Select';
+import Autocomplete from './components/Autocomplete';
 
 export default function App() {
   return (
@@ -35,6 +36,7 @@ export default function App() {
       <Toggle/>
       <Input/>
       <Select/>
+      <Autocomplete/>
     </ApplicationProvider>
   );
 };
