@@ -17,6 +17,7 @@ import Input from './components/Input';
 import Select from './components/Select';
 import Autocomplete from './components/Autocomplete';
 import Datepicker from './components/Datepicker';
+import ModalOverlays from './components/ModalOverlays';
 
 export default function App() {
   return (
@@ -39,6 +40,7 @@ export default function App() {
       <Select/>
       <Autocomplete/>
       <Datepicker/>
+      <ModalOverlays/>
     </ApplicationProvider>
   );
 };
