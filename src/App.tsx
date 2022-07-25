@@ -11,6 +11,7 @@ import Card from './components/Card';
 import List from './components/List';
 import Button from './components/Button';
 import ButtonGroup from './components/ButtonGroup';
+import Checkbox from './components/Checkbox';
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
       <List/>
       <Button/>
       <ButtonGroup/>
+      <Checkbox/>
     </ApplicationProvider>
   );
 };
